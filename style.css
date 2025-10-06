@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+    /* text-transform: uppercase; */
+    font-variant: small-caps;
+    font-size: 5vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: rgb(219, 8, 8);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+}
+
+section > p {
+    padding-bottom: 20px;
+}
+
+.normal {
+    background-color: white;
+}
+
+.normal > p {
+    background-color: rgba(211, 211, 211, 0.753);
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.185);
+}
+
+.normal > p:hover {
+      background-color: rgba(211, 211, 211, 0.753);
+    display: inline-block;
+    margin-right: 25px;
+    padding: 11px;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+.image {
+   background-color: rgba(0, 0, 0, 0.438);
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
+    background-attachment: fixed;
+}
+
+.image > p {
+    background-color: rgba(0, 0, 0, 0.486);
+    padding-left: 10px; 
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 40px;
+    text-shadow: 1px 10px 0px rgba(0, 0, 0, 0.295);
+}
+
+#img01 {
+    background-image: url(imagens/carti2.avif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img02 {
+    background-image: url(imagens/backimage.carti.jpg);
+    background-position:  left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nome {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    color: rgb(204, 9, 9);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+.p1 {
+    margin-bottom: 15px;
+}
+
+.p2 {
+   margin-top: 15px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
